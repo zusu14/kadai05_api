@@ -1,0 +1,71 @@
+/* 基本スタイルの設定 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif; /* クロスプラットフォーム対応 */
+  background-color: #121212;
+  color: #fff; /* #ffffffの短縮系 */
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 100%;
+  padding: 16px;
+  margin: 0 auto; /* 要素を地水平方向に中央揃えする一般的な書き方 */
+}
+
+/* ヘッダー */
+header {
+  padding: 12px 0;
+  text-align: center;
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 1.1rem;
+  font-weight: 500; /* 太さの数値指定 */
+  margin-bottom: 0.5em; /* em : font-size以外は自身の要素のフォントサイズ基準 */
+  color: #aaa;
+  letter-spacing: 0.2rem; /* 文字間隔を少し広げる */
+}
+
+/* 日付セレクター */
+.date-selector {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+/* 日付セレクターのスタイル */
+input[type="date"] {
+  font-size: 0.9rem;
+  background-color: rgba(44, 62, 80, 0.6);
+  color: #ddd;
+  border: none;
+  border-radius: 1.8em;
+  padding: 0.5em 0.8em;
+  width: 50%;
+  max-width: 250px;
+  /* ブロック要素として扱う */
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  /* backdrop-filter: blur(10px);  */
+  /* transition: all 1s ease; */
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
+}
+
+/* 途中 */
+.title {
+  font-size: 1.6rem;
+  font-weight: 600rem;
+  margin: 20 0;
+  text-align: center;
+  padding: 0 10px;
+  color: #fff;
+}

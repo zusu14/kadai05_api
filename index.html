@@ -1,9 +1,27 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>作成中</title>
+    <title>NASA Astronomy Picture of the Day</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Astronomy Picture of the Day</h1>
+        <div class="date-selector">
+          <input type="date" name="" id="date-picker" min="1995-06-16" />
+        </div>
+      </header>
+
+      <main id="apod-container">
+        <h2 id="apod-title" class="title"></h2>
+        <div class="media-container">
+          <img src="" alt="" id="NASA APOD" />
+        </div>
+      </main>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
 </html>

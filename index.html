@@ -16,32 +16,30 @@
       </header>
 
       <main id="apod-container">
-        <h2 id="apod-title" class="title"></h2>
+        <h2 id="apod-title"></h2>
 
         <div class="media-container">
           <div id="apod-media"></div>
         </div>
 
         <!-- アクションパネルをメディアコンテナの外に移動 -->
-        <div class="action-panel" id="action-panel">
-          <div class="action-buttons">
-            <button
-              id="show-explanation"
-              class="action-button"
-              style="display: none"
-            >
-              <span class="button-icon">ℹ️</span>
-              <span class="button-text">Info</span>
-            </button>
-            <!-- <button id="hd-view" class="action-button" style="display: none">
+        <div class="action-buttons">
+          <button
+            id="show-explanation"
+            class="action-button"
+            style="display: none"
+          >
+            <span class="button-icon">ℹ️</span>
+            <span class="button-text">Info</span>
+          </button>
+          <!-- <button id="hd-view" class="action-button" style="display: none">
               <span class="button-icon">🔍</span>
               <span class="button-text">HD View</span>
             </button> -->
-          </div>
         </div>
 
         <!-- 説明文ポップアップ -->
-        <div id="explanation-popup" class="popup">
+        <div id="explanation-popup">
           <div class="popup-content">
             <div class="popup-header">
               <h3>Description</h3>
